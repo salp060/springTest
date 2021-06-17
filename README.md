@@ -1,7 +1,8 @@
 ## Commands
-*RUN<br/>
+* RUN<br/>
 gradle bootRun
-*TEST<br/>
+
+* TEST<br/>
 gradle test
 
 ## CRUD Operations (Postman collection is included)
