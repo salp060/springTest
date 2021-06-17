@@ -1,9 +1,9 @@
 ## Commands
 * RUN<br/>
-gradle bootRun
+gradlew bootRun
 
 * TEST<br/>
-gradle test
+gradlew test
 
 ## CRUD Operations (Postman collection is included)
 * Get all employees<br/>
