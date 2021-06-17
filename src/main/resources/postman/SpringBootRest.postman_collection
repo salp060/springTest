@@ -1,0 +1,252 @@
+{
+	"id": "0c62789f-a393-9d86-55b1-740a09d44dde",
+	"name": "SpringBootRest",
+	"description": "",
+	"order": [
+		"50b4f80f-6c4a-adde-b146-3ca01ad60b62",
+		"983bcae7-0ffb-2be5-431b-abaf8900be44",
+		"12b2cfe8-e295-1479-5918-3f77952fa066",
+		"833b6e53-3973-2052-b3c1-ec6d0254c75b",
+		"c8c8bb0d-f4b0-c6a5-3e30-f69694399f49",
+		"a7c28639-52cb-56dd-492b-5928900f7022",
+		"289ac0fc-e03c-624d-b99d-c6816c7d6ca4",
+		"f219c79e-8381-5f46-4f4f-97dd238e4d16"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1554622453392,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "12b2cfe8-e295-1479-5918-3f77952fa066",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8085/employee?name=TestNew",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "TestNew",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912893578,
+			"name": "Get employee by name",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		},
+		{
+			"id": "289ac0fc-e03c-624d-b99d-c6816c7d6ca4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8085/employee/f31130cf-f7f3-46d4-9827-a50590170de0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912904940,
+			"name": "Update employee by id",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": [],
+			"rawModeData": "{\n    \"name\": \"TestNew\",\n    \"lastName\": \"TestNew___\",\n    \"salary\": 2000,\n    \"cityName\": \"Bogota\",\n    \"address\": \"Calle 777\",\n    \"position\": \"System Engineer\"\n}"
+		},
+		{
+			"id": "50b4f80f-6c4a-adde-b146-3ca01ad60b62",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8085/employee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912885503,
+			"name": "Get all employees",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		},
+		{
+			"id": "833b6e53-3973-2052-b3c1-ec6d0254c75b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8085/employee?position=Manager",
+			"queryParams": [
+				{
+					"key": "position",
+					"value": "Manager",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912896166,
+			"name": "Get employees by position",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		},
+		{
+			"id": "983bcae7-0ffb-2be5-431b-abaf8900be44",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8085/position",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912890104,
+			"name": "Get all positions",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		},
+		{
+			"id": "a7c28639-52cb-56dd-492b-5928900f7022",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8085/employee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912901724,
+			"name": "Create new employee",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": [],
+			"rawModeData": "{\n    \"name\": \"TestNew\",\n    \"lastName\": \"TestNew___\",\n    \"cityName\": \"Bogota\",\n    \"address\": \"Calle 88\",\n    \"position\": \"Manager\"\n}"
+		},
+		{
+			"id": "c8c8bb0d-f4b0-c6a5-3e30-f69694399f49",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8085/employee?name=TestNew&position=Manager",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "TestNew",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "position",
+					"value": "Manager",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912898972,
+			"name": "Get employees by position and name",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		},
+		{
+			"id": "f219c79e-8381-5f46-4f4f-97dd238e4d16",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8085/employee/f31130cf-f7f3-46d4-9827-a50590170de0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1623912922084,
+			"name": "Delete employee by id",
+			"description": "",
+			"collectionId": "0c62789f-a393-9d86-55b1-740a09d44dde",
+			"responses": []
+		}
+	]
+}
