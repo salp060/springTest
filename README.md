@@ -1,6 +1,8 @@
 ## Commands
-RUN: gradle bootRun
-TEST: gradle test
+*RUN<br/>
+gradle bootRun
+*TEST<br/>
+gradle test
 
 ## CRUD Operations (Postman collection is included)
 * Get all employees<br/>
