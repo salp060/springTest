@@ -1,3 +1,7 @@
+## Commands
+RUN: gradle bootRun
+TEST: gradle test
+
 ## CRUD Operations (Postman collection is included)
 * Get all employees<br/>
 `GET http://localhost:8085/employee`
